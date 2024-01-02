@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenTreeView", "CodeGenTreeView\CodeGenTreeView.csproj", "{49DDBF6D-728A-489C-925E-959C52668347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49DDBF6D-728A-489C-925E-959C52668347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DDBF6D-728A-489C-925E-959C52668347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DDBF6D-728A-489C-925E-959C52668347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DDBF6D-728A-489C-925E-959C52668347}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34C94274-7B61-4D9D-94D5-0788BB8FF749}
+	EndGlobalSection
+EndGlobal

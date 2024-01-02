@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\csharp.png" />
+    <None Remove="Resources\csharp.svg" />
+    <None Remove="Resources\file.png" />
+    <None Remove="Resources\folder-api-open.svg" />
+    <None Remove="Resources\folder-api.png" />
+    <None Remove="Resources\folder-api.svg" />
+    <None Remove="Resources\folder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\csharp.png" />
+    <Resource Include="Resources\csharp.svg" />
+    <Resource Include="Resources\folder-api-open.svg" />
+    <Resource Include="Resources\folder-api.png" />
+    <Resource Include="Resources\folder-api.svg" />
+  </ItemGroup>
+
+</Project>
